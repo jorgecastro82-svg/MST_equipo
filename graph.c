@@ -1,24 +1,5 @@
 #include "graph.h"
 
-// Structure to represent an adjacency list node (with weight)
-struct Node {
-    int dest;
-    int weight;
-    struct Node* next;
-};
-
-
-// Structure to represent an adjacency list
-struct AdjList {
-    struct Node* head;
-};
-
-
-// Structure to represent a graph
-struct Graph {
-    int numVertices;
-    struct AdjList* array;
-};
 
 
 // Function to create a new weighted adjacency list node
